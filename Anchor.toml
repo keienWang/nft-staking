@@ -1,11 +1,17 @@
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
 [programs.devnet]
-metaverse_staking = "EXZJ3cCRD8dxmTYPxY4nWEWjGiwiW1U9yz2jzJzngnLg"
+metaverse_staking = "5YEicQFPg772Q5xXiVr5iabLK93nWKp2Nxzw1ECeLJHk"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "devnet"
+cluster = "Devnet"
 wallet = "/Users/artemiyartamonov/.config/solana/devnet.json"
 
 [scripts]
